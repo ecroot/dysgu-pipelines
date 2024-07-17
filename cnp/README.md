@@ -51,7 +51,7 @@ Commands:
 
 ## Preprocessing
 
-This stage is a walk through of how to create the prerequisit files required for running (a gc percentage bed which can be generated from the reference, and a mappability file that will have to be externally sourced). Files for a 10kb window size for hg38 and hg19 are provided, as well as a 1mb window for hg38.
+This stage is a walk through of how to create the prerequisite files required for running (a gc percentage bed which can be generated from the reference, and a mappability file that will have to be externally sourced). Files for a 10kb window size for hg38 and hg19 are provided, as well as a 1mb window for hg38.
 
 Note to add more references, instances where `elif ref.lower() in {"hg38", "grch38"}:` are seen, a `chrom_lengths_dict` will need to be added to the code (eg. lines ~192, ~338, ~600).
 
